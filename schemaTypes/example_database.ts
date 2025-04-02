@@ -11,16 +11,16 @@ fields: [
 },
     {
         name: "image",
-        title:"Bilde av kaffe",
+        title:"Bilde av person",
         type: "image",
         options: {
             hotspot: true,
           },
         },
         {
-          name: 'price',
-          title: 'Hvor mye koster kaffe?',
-          type: 'number',
+          name: 'nettsted',
+          title: 'Nettsted til person',
+          type: 'url',
         },
 ],
 }
